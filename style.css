@@ -12,6 +12,7 @@
     background-color: rgb(215, 204, 243);
     height: 83%;
     padding: 10px;
+    overflow-y: scroll;
 }
 
 .heading {
