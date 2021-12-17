@@ -24,3 +24,12 @@
     border-radius: 10px;
     padding: 5px 10px;
 }
+
+.message-right, .message-right > * {
+    align-self: flex-end
+}
+
+.message-author, .date {
+    color: teal;
+    font-size: 12px;
+}
