@@ -7,6 +7,11 @@
     margin-top: 30px;
 }
 
+.chat {
+    background-color: rgb(215, 204, 243);
+    height: 83%;
+}
+
 .heading {
     width: 100%;
     height: 8%;
@@ -33,3 +38,8 @@
     color: teal;
     font-size: 12px;
 }
+
+.controls {
+    height: 9%;
+}
+
