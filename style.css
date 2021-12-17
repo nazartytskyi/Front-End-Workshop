@@ -20,7 +20,7 @@
 .message-text {
     width: fit-content;
     background-color: yellowgreen;
-    color:white
+    color:white;
     border-radius: 10px;
     padding: 5px 10px;
 }
