@@ -5,11 +5,13 @@
     border: 1px solid blue;
     border-radius: 15px;
     margin-top: 30px;
+    overflow: hidden;
 }
 
 .chat {
     background-color: rgb(215, 204, 243);
     height: 83%;
+    padding: 10px;
 }
 
 .heading {
