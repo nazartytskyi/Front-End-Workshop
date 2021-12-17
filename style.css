@@ -1,3 +1,8 @@
-.header {
-    color: red;
+.chat-wrapper {
+    margin: auto;
+    width: 600px;
+    height: 800px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    margin-top: 30px;
 }
