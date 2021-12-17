@@ -3,7 +3,7 @@ const chat = document.getElementById('chat');
 const input = document.getElementById('input');
 const sendBtn = document.getElementById('send');
 
-const ws = new WebSocket('ws//localhost:8000');
+//const ws = new WebSocket('ws//localhost:8000');
 
 
 function addMessage(author, date, text, isMyMessage) {
@@ -16,4 +16,12 @@ function addMessage(author, date, text, isMyMessage) {
     `;
 
     chat.innerHTML = chat.innerHTML + msg;
+}
+
+sendBtn.onclick = function () {
+    const text = input.value;
+    const date = new Date().toLocaleTimeString();
+
+    addMessage(name, date, text, true);
+    input.value = '';
 }
